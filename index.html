@@ -3,26 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divine Warrior Search</title>
+    <title>Divine Warrior - Superhero App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>DIVINE WARRIOR</h1>
-            <div class="leopard-print"></div>
-        </header>
-        
-        <main>
-            <div class="search-box">
-                <input type="text" id="search" placeholder="Enter warrior name...">
-                <button onclick="searchWarrior()">SEARCH</button>
+            <div class="logo">
+                <h1>DIVINE WARRIOR</h1>
+                <div class="leopard-spots"></div>
             </div>
-            <div id="result" class="result-box"></div>
+        </header>
+
+        <main>
+            <div class="hero-section">
+                <div class="character">
+                    <div class="lady-panther"></div>
+                </div>
+                
+                <div class="search-container">
+                    <h2>Find Your Warrior Spirit</h2>
+                    <div class="search-box">
+                        <input type="text" id="search" placeholder="Enter warrior name...">
+                        <button onclick="searchWarrior()">SEARCH</button>
+                    </div>
+                    <div id="result" class="result-box"></div>
+                </div>
+            </div>
         </main>
-        
+
         <footer>
-            <div class="leopard-print"></div>
             <p>Unleash Your Inner Power</p>
         </footer>
     </div>
